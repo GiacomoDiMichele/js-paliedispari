@@ -1,16 +1,19 @@
 var numero_utente = parseInt(prompt('inserisci un numero'));
-var pariodispari = prompt('scegli tra pari o dispari');
+var scelta_utente = prompt('scegli tra pari o dispari');
 var numero_computer = Math.floor(Math.random() * 5);
-var pari = numero_utente % 2 == 0;
-var dispari = numero_utente % 2 == 1;
 console.log(numero_utente);
-console.log(pariodispari);
+console.log(scelta_utente);
 console.log(numero_computer);
-risultato_finale = numero_utente + numero_computer
+var risultato_finale = numero_utente + numero_computer;
 console.log(risultato_finale);
 
-function utente_uno(numero_utente, pariodispari) {
-    if (risultato_finale == pari) {
-
+function pariodispari(numero) {
+    var risultato = 'dispari';
+    if (numero % 2 == 0) {
+        risultato = 'pari';
     }
+    return risultato;
 }
+
+var controllo = pariodispari(risultato_finale)
+console.log(controllo);
