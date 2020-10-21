@@ -7,7 +7,7 @@ console.log(numero_utente);
 console.log(pariodispari);
 console.log(numero_computer);
 risultato_finale = numero_utente + numero_computer
-console.log(somma);
+console.log(risultato_finale);
 
 function utente_uno(numero_utente, pariodispari) {
     if (risultato_finale == pari) {
