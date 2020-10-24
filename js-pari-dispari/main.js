@@ -9,7 +9,7 @@ console.log(risultato_finale);
 
 function pariodispari(numero) {
     var risultato = 'dispari';
-    if (numero % 2 == 0) {
+    if (risultato_finale % 2 == 0) {
         risultato = 'pari';
     }
     return risultato;
@@ -17,3 +17,19 @@ function pariodispari(numero) {
 
 var controllo = pariodispari(risultato_finale)
 console.log(controllo);
+
+if (risultato == scelta_utente  ) {
+    console.log('hai vinto');
+} else {
+        console.log('hai perso');
+
+}
+
+function isEven(numero){
+    if (numero % 2 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
